@@ -108,8 +108,42 @@
 // }
 
 
+// function findispalindrome(str,str1){
+//   let reversed=str.split('').reverse().join("")
+//   if(str===reversed){
+//     console.log(`${str} is palindrome`)
+//   }else{
+//     console.log(`${str} is not a palindrome`)
+//   }
+//   return reversed
+// }
+// let str="madam"
+// let str1="Hello"
+// console.log(findispalindrome(str))
+// console.log(findispalindrome(str1))
 
-function subtraction(a,b,c,d,e){
-  return a-b-c-d+e
+
+// function findlargestnumber(num){
+//   let max=num[0]
+//   for(let i=0;i<num.length;i++){
+//     if(max<num[i]){
+//     max=num[i]
+//     }
+//   }
+//     return max
+// }
+// let num=[12,1,2,3,4,5]
+// console.log(findlargestnumber(num))
+
+
+function findsmallestnumber(num){
+  let small=num[0]
+  for(let i=0;i<num.length;i++){
+    if(small>num[i]){
+      small=num[i]
+    }
+  }
+  return small
 }
-console.log(subtraction(12,32,1,5,6))
+let num=[1,2,3,4,5]
+console.log(findsmallestnumber(num))

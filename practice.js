@@ -1,27 +1,15 @@
-// / let num=[0,1,3]
-// output:2
-
-// function missingnumber(nums){
-//   let n=nums.length;
-//   let total=(n*(n+1))/2
-//   let sum=0;
-//   for(let i=0;i<nums.length;i++){
-//    sum+=nums[i]
-//   }
-//   return total-sum
-// }
-// let nums=[0,1,3]
-// console.log(missingnumber(nums))
-
-// input nums=[0,1,0,3,12]
-// output:[1,3,12,0,0]
+// Input: nums = [-1,0,3,5,9,12], target = 9
+// Output: 4
 
 
-// function movezeros(nums){
-//   let j=0;
-//   for(let i=0;i<nums.length;i++){
-//     if(nums[j]=nums[i]){
-//         j++
-//     }
-     
-//   }
+function search(nums,target){  // leetcode qn0=704
+  for(let i=0;i<nums.length;i++){
+    if(nums[i]===target){
+      return i;
+    }
+  }
+  return -1;
+}
+let nums=[-1,0,3,5,9,12]
+console.log(search(nums,9))
+console.log(search(nums,2))

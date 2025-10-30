@@ -89,3 +89,13 @@
 // let nums=[-1,0,3,5,9,12]
 // console.log(search(nums,9))
 // console.log(search(nums,2))
+
+// function addnum(nums){
+//    let sum=0;
+//    for(let i=0;i<nums.length;i++){
+//     sum+=nums[i]
+//    }
+//    return sum;
+//  }
+//  let nums=[1,1,1,1,1,]
+//  console.log(addsum(nums))

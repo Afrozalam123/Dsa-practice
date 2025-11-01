@@ -99,3 +99,19 @@
 //  }
 //  let nums=[1,1,1,1,1,]
 //  console.log(addsum(nums))
+
+
+// Input: nums = [3,2,1]  // qno=414
+// Output: 1
+
+// function thirdmax(nums){                 // thirdmax name hai nums argument liye
+//   let distinct=[...new Set(nums)]      // let distinct ek variable hai new set wala duplicate elements ko nikalega
+//   distinct.sort((a,b)=>b-a)            // fir sort krega bhai a,b ba asending to descending number//
+//   return distinct[2]!==undefined?distinct[2]:distinct[0]  // bhai ye conditional rendering hai return distinct2 kro ya fir true    
+//                                                                 // undefined  kro nahi to distinct 2 distinct 0 distinct 2 true  
+//                                                                 // distinct [0] false hai//
+//   }
+// let nums=[3,2,1]     // bhai nums ka ek array hai uske ander nums hai
+// console.log(thirdmax([3,2,1]));   // yaha per function ko call kiye//
+// console.log(thirdmax([1,2]));    
+// console.log(thirdmax([2,2,3,1]));

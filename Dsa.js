@@ -63,19 +63,36 @@
 // Output: [1,3,12,0,0]
 
 
-function movezeros(nums){
-  let j=0;
-  for(let i=0;i<nums.length;i++){
-    if(nums[i]!==0){
-      nums[j]=nums[i]
-      j++
-    }
-  }
-  for(let i= j;i<nums.length;i++){
-    nums[i]=0;
-  }
-  return nums
+// function movezeros(nums){
+//   let j=0;
+//   for(let i=0;i<nums.length;i++){
+//     if(nums[i]!==0){
+//       nums[j]=nums[i]
+//       j++
+//     }
+//   }
+//   for(let i= j;i<nums.length;i++){
+//     nums[i]=0;
+//   }
+//   return nums
 
-}
-let nums=[0,1,0,3,12]
-console.log(movezeros([0,1,0,3,12]))
+// }
+// let nums=[0,1,0,3,12]
+// console.log(movezeros([0,1,0,3,12]))
+
+// Input: nums = [1,2,3]
+// Output: 6
+
+// function maximumproduct(nums){
+//   nums.sort((a,b)=>a-b)
+//   let n=nums.length;
+//   return  Math.max(
+   
+//     nums[n-1]*nums[n-2]*nums[n-3],
+//     nums[0] *nums[1]*nums[n-1]
+//   )
+// }
+// let nums=[1,2,3]
+// console.log(maximumproduct([1,2,3]))
+// console.log(maximumproduct([1,2,3,4]))
+// console.log(maximumproduct([-1,-2,-3]))

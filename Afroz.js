@@ -136,14 +136,15 @@
 // console.log(findlargestnumber(num))
 
 
-function findsmallestnumber(num){
-  let small=num[0]
-  for(let i=0;i<num.length;i++){
-    if(small>num[i]){
-      small=num[i]
-    }
-  }
-  return small
-}
-let num=[1,2,3,4,5]
-console.log(findsmallestnumber(num))
+// function findsmallestnumber(num){
+//   let small=num[0]
+//   for(let i=0;i<num.length;i++){
+//     if(small>num[i]){
+//       small=num[i]
+//     }
+//   }
+//   return small
+// }
+// let num=[1,2,3,4,5]
+// console.log(findsmallestnumber(num))
+

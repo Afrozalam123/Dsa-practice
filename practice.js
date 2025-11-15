@@ -102,12 +102,17 @@
 // console.log(validpalindrome(" ")); // true
 
 
-function validpalindrome(s){
-  let clean=s.replace(/[^a-z0-9]/gi, "").toLowerCase();
-  let reverse=clean.split("").reverse().join('')
-  return clean===reverse
+// function validpalindrome(s){
+//   let clean=s.replace(/[^a-z0-9]/gi, "").toLowerCase();
+//   let reverse=clean.split("").reverse().join('')
+//   return clean===reverse
+// }
+// let s=['A man a plan ,a canal,:panama']
+// console.log(validpalindrome("A man, a plan, a canal:panam"))
+// console.log(validpalindrome("race a car"))
+// console.log(validpalindrome(""))
+
+function printnumber(a,b){
+  return a+b
 }
-let s=['A man a plan ,a canal,:panama']
-console.log(validpalindrome("A man, a plan, a canal:panam"))
-console.log(validpalindrome("race a car"))
-console.log(validpalindrome(""))
+console.log(printnumber(12,12))

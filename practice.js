@@ -112,7 +112,52 @@
 // console.log(validpalindrome("race a car"))
 // console.log(validpalindrome(""))
 
-function printnumber(a,b){
-  return a+b
+// function palindrome(s){
+//   let clean=s.replace(/[^a-z0-9]/gi,"").toLowerCase();
+//   let reverse=clean.split("").reverse().join("")
+//   return clean===reverse
+// }
+// let s=['A man a plan,a canal,:panama']
+// console.log(palindrome("A man a plan a canal:panama"))
+// console.log(palindrome("race a car"))
+// console.log(palindrome(""))
+
+
+ //  how to  generate password in js//
+
+//  function generatepassword(length){
+//     let password="";
+//     const digit="12345678910";
+//     for(let i=0;i<length;i++){
+//       const randomIndex=Math.floor(Math.random()*digit.length)
+//       password+=digit[randomIndex]
+//     }
+//     return password;
+//  }
+//  console.log(generatepassword(3))
+
+
+// function generatepassword(length){
+//   let password=""
+//   const digit="987654321"
+//   for(let  i=0;i<length;i++){
+//     const randomIndex=Math.floor(Math.random()*digit.length)
+//     password+=digit[randomIndex]
+//   }
+//   return password
+// }
+// // console.log(generatepassword(5))
+// console.log(generatepassword(12))
+
+
+function generatepassword(nums){
+  let password="";
+  let digit='897654321';
+  for(let i=0;i<nums;i++){
+    const randomIndex=Math.floor(Math.random()*digit.length)
+    password+=digit[randomIndex]
+  }
+  return password;
 }
-console.log(printnumber(12,12))
+console.log(generatepassword(3))
+console.log(generatepassword(7))

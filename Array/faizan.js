@@ -230,3 +230,42 @@
 // console.log(validpalindrome("A man,a plan,a canal:panama"))  // fir us ke baad function ko call kie
 // console.log(validpalindrome("race a car"))  // fir function ko caal kiye//
 // console.log(validpalindrome(""))  // fir function ko caal kiyye
+
+
+
+// / Input: list1 = [1,2,4], list2 = [1,3,4]
+// Output: [1,1,2,3,4,4]
+// Example 2:
+// Input: list1 = [], list2 = []
+// Output: []
+// Example 3:
+// Input: list1 = [], list2 = [0]
+// Output: [0]
+
+// / function mergeArray(list1,list2){
+//     let result=[]
+//     for(let  i=0;i<list1.length;i++){
+//       result.push(list1[i])
+//     }
+//      for(let j=0;j<list2.length;j++){
+//       result.push(list2[j])
+//      }   
+//      return result.sort((a,b)=>a-b) 
+// }
+// console.log(mergeArray([1,2,4],[1,3,4]))
+
+
+
+// NOW GENRATE PASSWORDUSING  JAVASCRIPT//
+
+// function generatepassword(num){
+//   let password="";
+//   let digit='986745321';
+//   for(let i=0;i<num;i++){
+//      const randomIndex=Math.floor(Math.random()*digit.length)
+//      password+=[randomIndex]
+//   }
+//   return password;
+// }
+// console.log(generatepassword(2))
+// console.log(generatepassword(9))

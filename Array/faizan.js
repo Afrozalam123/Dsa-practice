@@ -269,3 +269,74 @@
 // }
 // console.log(generatepassword(2))
 // console.log(generatepassword(9))
+
+
+// Example 1:
+
+// Input: s = "()"
+
+// Output: true
+
+// Example 2:
+
+// Input: s = "()[]{}"
+
+// Output: true
+
+// Example 3:
+
+// Input: s = "(]"
+
+// Output: false
+
+// Example 4:
+
+// Input: s = "([])"
+
+// Output: true
+
+// Example 5:
+
+// Input: s = "([)]"
+
+// Output: false
+
+
+// function isvalid(s){
+//   let stack=[];
+//   for(let ch of s){
+//     if(ch==="(" )  stack.push(")")
+//       else if(ch==="{")   stack.push("}")  
+//       else if(ch==="[")  stack.push("]")
+//       else if(stack.pop()!==ch)  return false;
+//   }
+//   return stack.length===0;
+// }
+// let s="()"
+// console.log(isvalid("()"))        // true
+// console.log(isvalid("()[]{}"))    // true 
+// console.log(isvalid("(]"))         // false//
+// console.log(isvalid("([])"))        // true//
+// console.log(isvalid( "([)]"))         // false//
+  
+
+// / Input: nums = [4,3,2,7,8,2,3,1]
+// Output: [5,6]
+// Example 2:
+
+// Input: nums = [1,1]
+// Output: [2]
+
+
+// function disappearNumber(nums){      // disappearnumber name ka  function bnaye argument nums liye hai  bhai//
+//   let set=new Set(nums)  // let set name ka variable bnaye new set(nums) ye duplicate number ko hta dega
+//   let res=[]; // res name  ka empty array  bnaye//
+//   for(let i=1;i<=nums.length;i++){  // for  loop  lagaye//
+//     if(!set.has(i)){ // mtlab check krta hai  set.has(i) kya  set  ke ander value i hai  ha i to true nah i to false//
+//       res.push(i)   // res.push(i) mtlab res jo variable  bnaye the usmein push  kro  index ko 
+//     } 
+//   }
+//   return res;  // fir yaha  return kro 
+// }
+//  console.log(disappearNumber([4,3,2,7,8,2,3,1]))  // yaha  per function ko call kro  bhai
+//  console.log(disappearNumber([1,1]))   // yaha bhai  function ko call kro bhai 

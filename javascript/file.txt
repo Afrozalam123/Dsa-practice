@@ -1,0 +1,112 @@
+Q1
+
+Array: [1, 2, 3, 4, 5]
+Har number ka square wala naya array banao.
+
+Q2
+
+Array: [5, 10, 15, 20]
+Har value me 10 add karke naya array banao.
+
+Q3
+Array: [10, 20, 30, 40]
+Naya array banao jisme har element value + index ho.
+
+Q4
+
+Array: [1, 2, 3, 4]
+Har element ka double wala naya array banao.
+
+Q5
+Array: ["apple", "banana", "mango"]
+Naya array banao jisme sab fruits uppercase me ho.
+
+Q6
+
+Array: ["hi", "hello", "okay"]
+Naya array banao jisme har string ki length ho.
+
+Q7
+
+Array of objects:
+[{ name: "Ali", age: 17 }, { name: "Rohan", age: 20 }, { name: "Sara", age: 19 }]
+Naya array banao jisme sirf names ho.
+
+Q8
+
+Array: [100, 200, 300]
+Naya array banao jisme har price me 18% GST add ho.
+
+Q9
+
+Array: [35, 50, 80, 25]
+Naya array banao jisme har marks ke liye "Pass" ya "Fail" likha ho
+(40 ya usse jyada → "Pass", warna "Fail").
+
+Q10
+
+Array: ["Pen", "Book", "Laptop"]
+Naya array banao jisme format ho:
+"1. Pen", "2. Book", "3. Laptop".
+
+
+
+ 
+
+|****************************************||
+ // question filter method // filter()// ||
+*******************************************||
+
+
+Q1
+
+Array:
+[1, 2, 3, 4, 5, 6]
+Naya array banao jisme sirf even numbers ho.
+
+Q2
+
+Array:
+[10, 25, 30, 5, 40]
+Naya array banao jisme sirf 20 se bade numbers ho.
+
+Q3
+
+Array:
+[3, 7, 11, 12, 18, 19]
+Naya array banao jisme sirf 10 ya usse jyada aur 20 se kam numbers ho.
+
+Q4
+Array:
+["apple", "kiwi", "banana", "mango", "fig"]
+Naya array banao jisme sirf woh fruits ho jinki length > 5 ho.
+
+Q5
+Array:
+["cat", "dog", "elephant", "cow", "tiger"]
+Naya array banao jisme sirf woh words ho jisme letter "o" ho.
+
+Q6
+Array of objects:
+[{ name: "Ali", age: 17 }, { name: "Rohan", age: 20 }, { name: "Sara", age: 16 }, { name: "Imran", age: 22 }]
+Naya array banao jisme sirf 18+ age wale log ho.
+
+Q7
+Array of objects:
+[{ product: "Pen", price: 10 }, { product: "Book", price: 50 }, { product: "Bag", price: 300 }, { product: "Pencil", price: 5 }]
+Naya array banao jisme sirf woh products ho jinka price ≥ 50 ho.
+
+Q8
+Array:
+[0, 1, "", "hello", null, 5, undefined, "world"]
+Naya array banao jisme sirf truthy values ho.
+
+Q9
+Array:
+["js", "python", "java", "c", "cpp", "ruby"]
+Naya array banao jisme sirf woh languages ho jinki length 3 ya usse jyada ho.
+
+Q10
+Array of objects:
+[{ title: "Task 1", completed: true }, { title: "Task 2", completed: false }, { title: "Task 3", completed: true }, { title: "Task 4", completed: false }]
+Naya array banao jisme sirf completed === true wale tasks ho.

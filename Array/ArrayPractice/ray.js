@@ -120,3 +120,83 @@
 
 // findtarget([5,3,8,3,9],3)
 // findtarget([1,2,3],5)
+
+
+
+// Q9. Difference Between Max and Min
+
+// Ek integer array diya gaya hai.
+// Task:
+
+// Array ka maximum element nikalna
+
+// Array ka minimum element nikalna
+
+// Fir maximum - minimum ka result return karna
+
+// Example:
+// Input: arr = [3, 10, 6, 1]
+// max = 10, min = 1
+// Output: 9
+
+
+// const maximumNumber=(arr)=>{
+//    let max=arr[0]
+//    for(let i=0;i<arr.length;i++){
+//      if(arr[i]>max){
+//       max=arr[i]
+//      }
+//    }
+//    return max;
+// }
+
+// let arr=[3,10,6,1]
+// console.log(maximumNumber(arr))
+
+
+
+// Q8. Count Positive, Negative and Zero
+
+// Ek integer array diya gaya hai.
+// Task:
+
+// Kitne elements positive hain
+
+// Kitne elements negative hain
+
+// Kitne elements zero hain
+
+// Ye 3 count nikalna hai. (Tu chahe to console.log se print kar sakta hai)
+
+// Example:
+// Input: arr = [1, -2, 0, 5, 0, -3]
+// Output:
+
+// Positive: 2
+
+// Negative: 2
+
+// Zero: 2
+
+
+// const findelement=(arr)=>{
+//   let positive=0;
+//   let negative=0;
+//   let zero=0;
+//   for(let i=0;i<arr.length;i++){
+//      if(arr[i]>0){
+//        positive++
+//      } else if(arr[i]<0){
+//              negative++
+//      } else{
+//       zero++
+//      }
+//   }
+
+//   console.log("positive",positive)
+//   console.log("negative",negative)
+//   console.log("zero",zero)
+// }
+
+// let arr=[1, -2, 0, 5, 0, -3]
+// console.log(findelement(arr))

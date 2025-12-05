@@ -179,24 +179,56 @@
 // Zero: 2
 
 
-// const findelement=(arr)=>{
-//   let positive=0;
-//   let negative=0;
-//   let zero=0;
-//   for(let i=0;i<arr.length;i++){
-//      if(arr[i]>0){
-//        positive++
-//      } else if(arr[i]<0){
-//              negative++
-//      } else{
-//       zero++
-//      }
-//   }
+// function findelement(arr){
+//    let positive=0;
+//    let negative=0;
+//    let zero=0;
 
-//   console.log("positive",positive)
-//   console.log("negative",negative)
-//   console.log("zero",zero)
+//    for(let i=0;i<arr.length;i++){
+//        if(arr[i]>0){
+//         positive++
+//        } else if(arr[i]<0){
+//          negative++
+//        } else{
+//         zero++
+//        }
+//    }
+
+//    console.log("positive",positive)
+//    console.log("negative",negative)
+//    console.log("zero",zero)
 // }
 
 // let arr=[1, -2, 0, 5, 0, -3]
+// console.log(findelement(arr))
+
+
+// Q10. Check if Array is Sorted (Increasing Order)
+
+// Ek integer array diya gaya hai.
+// Task: Check karo ki array increasing order (chhote se bada) me sorted hai ya nahi.
+
+// Agar har next element, previous se bada ya barabar ho → true
+
+// Warna → false
+
+// Example 1:
+// Input: arr = [1, 2, 3, 4]
+// Output: true
+
+// Example 2:
+// Input: arr = [1, 3, 2, 4]
+// Output: false
+  
+
+// function findelement(arr){
+//    for(let i=0;i<arr.length;i++){
+//      if(arr[i]>arr[i+1]){
+//        return false;
+//      }
+//    }
+//    return true;
+// }
+
+// let arr=[1,2,3,4]
 // console.log(findelement(arr))

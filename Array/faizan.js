@@ -75,8 +75,8 @@
 
 
 
-//  qn0=704Input: nums = [-1,0,3,5,9,12], target = 9
-// Output: 4
+//  Input: nums = [-1,0,3,5,9,12], target = 9
+// Output: 4    //qn0=704
 
 // function search(nums,target){ 
 //   for(let i=0;i<nums.length;i++){

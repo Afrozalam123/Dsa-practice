@@ -150,14 +150,16 @@
 // console.log(generatepassword(12))
 
 
-function generatepassword(nums){
-  let password="";
-  let digit='897654321';
-  for(let i=0;i<nums;i++){
-    const randomIndex=Math.floor(Math.random()*digit.length)
-    password+=digit[randomIndex]
-  }
-  return password;
-}
-console.log(generatepassword(3))
-console.log(generatepassword(7))
+// function generatepassword(nums){
+//   let password="";
+//   let digit='897654321';
+//   for(let i=0;i<nums;i++){
+//     const randomIndex=Math.floor(Math.random()*digit.length)
+//     password+=digit[randomIndex]
+//   }
+//   return password;
+// }
+// console.log(generatepassword(3))
+// console.log(generatepassword(7))
+
+

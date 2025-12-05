@@ -262,3 +262,99 @@
 //      return result.sort((a,b)=>a-b) 
 // }
 // console.log(mergeArray([1,2,4],[1,3,4]))
+
+
+// Example 1:
+
+// Input: s = "()"
+
+// Output: true
+
+// Example 2:
+
+// Input: s = "()[]{}"
+
+// Output: true
+
+// Example 3:
+
+// Input: s = "(]"
+
+// Output: false
+
+// Example 4:
+
+// Input: s = "([])"
+
+// Output: true
+
+// Example 5:
+
+// Input: s = "([)]"
+
+// Output: false
+
+
+// function valid(s){
+//   let stack=[];
+//   for(let ch of s){
+//     if(ch==="(") stack.push(")") 
+//       else if(ch==="{") stack.push("}")
+//        else if(ch==='[') stack.push(']')
+//         else if(stack.pop()!==ch) return false;
+//     }
+//      return stack.length===0;
+//   }   
+//   console.log(valid("()"))
+//    console.log(valid("()[]{}"))
+//     console.log(valid("(]"))
+//      console.log(valid("([])"))
+//       console.log(valid("([)]"))
+
+  
+// Example 1:
+
+// Input: nums = [4,3,2,7,8,2,3,1]
+// Output: [5,6]
+// Example 2:
+
+// Input: nums = [1,1]
+// Output: [2]
+
+
+// function disapperNumber(nums){
+//   let set=new Set(nums)
+//   let res=[]
+//   for(let i=1;i<=nums.length;i++){
+//     if(!set.has(i)){
+//      res.push(i)
+//     }
+//   }
+//   return res
+// }
+// let nums=[4,3,2,7,8,2,3,1]
+// console.log(disapperNumber([4,3,2,7,8,2,3,1]))
+// console.log(disapperNumber([1,1]))
+
+
+// / / Input: nums = [4,3,2,7,8,2,3,1]
+// Output: [5,6]
+// Example 2:
+
+// Input: nums = [1,1]
+// Output: [2]
+
+
+
+// function disappearnumber(nums){
+//   let set=new Set(nums)
+//    let res=[]
+//    for(let i=1;i<=nums.length;i++){
+//      if(!set.has(i)){
+//        res.push(i)
+//      }
+//    }
+//    return res;
+// }
+// console.log(disappearnumber([4,3,2,7,8,2,3,1]))
+// console.log(disappearnumber([1,1]))
